@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Nested Tables</title>
+    <title>Nested HTML Tables</title>
 </head>
-
 <body>
 
-<table border="1" cellpadding="10">
+<table border="1">
 
+    <!-- Row 1 -->
     <tr>
-        <!-- LEFT SIDE -->
         <td>
             <table border="1">
                 <tr>
-                    <th colspan="2">Nested Table 2</th>
+                    <th>Nested Table 2</th>
                 </tr>
                 <tr>
                     <td>Column 1</td>
-                    <td>Column 2</td>
                 </tr>
                 <tr>
                     <td>abc</td>
-                    <td>def</td>
                 </tr>
             </table>
         </td>
 
-        <!-- RIGHT SIDE -->
         <td>
             <table border="1">
                 <tr>
@@ -45,7 +41,7 @@
         </td>
     </tr>
 
-    <!-- SECOND ROW -->
+    <!-- Row 2 -->
     <tr>
         <td>
             <table border="1">
@@ -53,7 +49,10 @@
                     <th>Nested Table 3</th>
                 </tr>
                 <tr>
-                    <td>Demo Continued</td>
+                    <td>Column 2</td>
+                </tr>
+                <tr>
+                    <td>def</td>
                 </tr>
             </table>
         </td>
